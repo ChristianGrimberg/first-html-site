@@ -1,7 +1,19 @@
+/**< Selector de Etiqueta HTML */
 header {
-    background: plum !important;
+    background: palevioletred !important;
 }
 
 body {
     background: whitesmoke;
+}
+
+/**< Selector de Atributo:class */
+.link {
+    color: white;
+}
+
+/**<  Selector de Atributo:id */
+#portfolio {
+    background: grey;
+    color: white;
 }
