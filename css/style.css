@@ -10,10 +10,15 @@ body {
 /**< Selector de Atributo:class */
 .link {
     color: white;
+    text-decoration: none;
 }
 
 /**<  Selector de Atributo:id */
 #portfolio {
     background: grey;
     color: white;
+}
+
+.menu-list {
+    display: inline-block;
 }
