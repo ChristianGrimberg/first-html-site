@@ -2,7 +2,9 @@
 header {
     background: palevioletred !important;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
 }
 
 body {
@@ -14,6 +16,8 @@ h1 {
     font-family: 'PT Sans', sans-serif;
     font-size: 35px;
     color: darkslategray;
+    line-height: 0.95;
+    font-weight: 200;
 }
 
 /**< Selector de Atributo:class */
