@@ -1,18 +1,18 @@
 /**< Selector de Etiqueta HTML */
 header {
     background: palevioletred !important;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px
 }
 
 body {
     background: whitesmoke;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Ubuntu', cursive;
 }
 
 h1 {
     font-family: 'PT Sans', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     color: darkslategray;
 }
 
