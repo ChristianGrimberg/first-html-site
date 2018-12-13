@@ -16,7 +16,7 @@ h1 {
     font-family: 'PT Sans', sans-serif;
     font-size: 35px;
     color: darkslategray;
-    line-height: 0.95;
+    line-height: 0.9;
     font-weight: 200;
 }
 
@@ -24,6 +24,14 @@ h1 {
 .link {
     color: white;
     text-decoration: none;
+}
+
+.project-element {
+    width: 500px;
+}
+
+.project-imageContainer {
+    width: 500px;
 }
 
 /**<  Selector de Atributo:id */
