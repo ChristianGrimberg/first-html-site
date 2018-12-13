@@ -1,10 +1,11 @@
 /**< Selector de Etiqueta HTML */
 header {
-    background: palevioletred !important;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     letter-spacing: 1.5px;
     text-transform: capitalize;
+    background-color: #1B2127;
+    color: whitesmoke;
 }
 
 body {
@@ -15,15 +16,27 @@ body {
 h1 {
     font-family: 'PT Sans', sans-serif;
     font-size: 35px;
-    color: darkslategray;
+    color: rgb(118, 185, 18);
     line-height: 0.9;
     font-weight: 200;
+}
+
+h1 strong {
+    color: blueviolet;
 }
 
 /**< Selector de Atributo:class */
 .link {
     color: white;
     text-decoration: none;
+}
+
+.hero {
+    background-image: url('../images/hero.png');
+    background-color: rgb(38, 48, 46);
+    height: 309px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .project-element {
