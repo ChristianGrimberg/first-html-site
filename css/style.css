@@ -31,12 +31,22 @@ h1 strong {
     text-decoration: none;
 }
 
+.menu-list {
+    display: inline-block;
+}
+
 .hero {
     background-image: url('../images/hero.png');
     background-color: rgb(38, 48, 46);
-    height: 309px;
+    height: 260px;
     background-repeat: no-repeat;
     background-position-x: right;
+    background-size: contain;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .project-element {
@@ -44,15 +54,10 @@ h1 strong {
 }
 
 .project-imageContainer {
-    width: 500px;
+    height: 250px;
 }
 
 /**<  Selector de Atributo:id */
 #portfolio {
-    background: grey;
-    color: white;
-}
-
-.menu-list {
-    display: inline-block;
+    color: darkslategrey;
 }
