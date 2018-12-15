@@ -19,6 +19,7 @@ h1 {
     color: rgb(118, 185, 18);
     line-height: 0.9;
     font-weight: 200;
+    margin: 0px 280px 0px 0px;
 }
 
 h1 strong {
@@ -35,13 +36,18 @@ h1 strong {
     display: inline-block;
 }
 
+.menu-container {
+    margin: 0px;
+}
+
 .hero {
     background-image: url('../images/hero.png');
-    background-color: rgb(38, 48, 46);
+    background-color: rgb(58, 58, 58);
     height: 260px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: contain;
+    padding-top: 10px;
 }
 
 .project {
@@ -51,6 +57,7 @@ h1 strong {
 
 .project-element {
     width: 500px;
+    margin: 0px auto;
 }
 
 .project-imageContainer {
