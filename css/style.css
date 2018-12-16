@@ -1,7 +1,8 @@
 /**< Selector de Etiqueta HTML */
 header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-style: normal;
     letter-spacing: 1.5px;
     text-transform: capitalize;
     background-color: #1B2127;
@@ -11,6 +12,7 @@ header {
 body {
     background: whitesmoke;
     font-family: 'Ubuntu', cursive;
+    margin: 0px;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
     color: rgb(118, 185, 18);
     line-height: 0.9;
     font-weight: 200;
-    margin: 0px 280px 0px 0px;
+    margin: 25px 280px 0px 5px;
 }
 
 h1 strong {
@@ -67,4 +69,22 @@ h1 strong {
 /**<  Selector de Atributo:id */
 #portfolio {
     color: darkslategrey;
+    margin: 0px 0px 0px 5px;
+}
+
+.experience-header {
+    margin: 5px 0px 0px 5px;
+    text-transform: capitalize;
+}
+
+.experience {
+    margin: 0px 0px 0px 5px;
+}
+
+.contact {
+    margin: 0px 0px 0px 5px;
+}
+
+.footer {
+    margin: 0px 0px 0px 5px;
 }
