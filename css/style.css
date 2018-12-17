@@ -1,12 +1,19 @@
 /**< Selector de Etiqueta HTML */
 header {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     letter-spacing: 1.5px;
     text-transform: capitalize;
-    background-color: #1B2127;
+    background-color: #253A46;
     color: whitesmoke;
+    height: 60px;
+    text-align: right;
+    background-image: url('../images/novocap.png');
+    background-position: 10px;
+    background-size: 3%;
+    background-repeat: no-repeat;
+    border-image-slice: fill;
 }
 
 body {
@@ -17,11 +24,13 @@ body {
 
 h1 {
     font-family: 'PT Sans', sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     color: rgb(118, 185, 18);
     line-height: 0.9;
-    font-weight: 200;
-    margin: 25px 280px 0px 5px;
+    font-weight: 400;
+    padding: 5px;
+    padding-right: 280px;
+    margin: 0px;
 }
 
 h1 strong {
@@ -36,15 +45,18 @@ h1 strong {
 
 .menu-list {
     display: inline-block;
+    padding: 25px 50px 15px 0px;
 }
 
 .menu-container {
     margin: 0px;
+    padding: 0px;
+    min-width: 605px;
 }
 
 .hero {
     background-image: url('../images/hero.png');
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(70, 70, 70);
     height: 260px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -53,8 +65,11 @@ h1 strong {
 }
 
 .project {
-    border: 1px solid gray;
+    border: 2px solid gray;
     border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    background-color: lightcyan;
 }
 
 .project-element {
@@ -69,7 +84,14 @@ h1 strong {
 /**<  Selector de Atributo:id */
 #portfolio {
     color: darkslategrey;
-    margin: 0px 0px 0px 5px;
+    background-color: rgb(200, 200, 200);
+    margin: 0px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.portfolio-header {
+    margin: 0px;
 }
 
 .experience-header {
