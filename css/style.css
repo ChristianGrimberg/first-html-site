@@ -1,19 +1,13 @@
 /**< Selector de Etiqueta HTML */
 header {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    letter-spacing: 1.5px;
-    text-transform: capitalize;
     background-color: #253A46;
-    color: whitesmoke;
-    height: 60px;
-    text-align: right;
+    padding: 15px 10px 5px 5px;
     background-image: url('../images/novocap.png');
-    background-position: 10px;
-    background-size: 3%;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-size: 2%;
     background-repeat: no-repeat;
-    border-image-slice: fill;
+    height: 20px;
 }
 
 body {
@@ -44,14 +38,21 @@ h1 strong {
 }
 
 .menu-list {
-    display: inline-block;
-    padding: 25px 50px 15px 0px;
+    display: inline;
+    padding-left: 35px;
 }
 
 .menu-container {
     margin: 0px;
-    padding: 0px;
     min-width: 605px;
+    text-align: right;
+    vertical-align: text-bottom;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 1.3px;
+    text-transform: capitalize;
+    color: whitesmoke;    
 }
 
 .hero {
@@ -109,4 +110,5 @@ h1 strong {
 
 .footer {
     margin: 0px 0px 0px 5px;
+    display: none;
 }
