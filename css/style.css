@@ -70,13 +70,16 @@ h1 strong {
     margin: 5px;
     padding: 10px;
     background-color: lightcyan;
-    display: inline-flex;
     height: 200px;
-    max-width: 500px;
+    width: 500px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .project-image {
     height: 185px;
+    flex-shrink: 0;
 }
 
 /**<  Selector de Atributo:id */
@@ -84,10 +87,21 @@ h1 strong {
     color: darkslategrey;
     background-color: rgb(200, 200, 200);
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolio-header {
+    padding-top: 10px;
     padding-left: 10px;
+    background-color: rgb(200, 200, 200);
+    color: darkslategrey;
+    margin: 0px;
+    height: 50px;
+}
+
+.portfolio-header h2 {
+    margin: 0px;
 }
 
 .experience-header {
