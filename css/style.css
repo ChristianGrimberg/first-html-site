@@ -1,7 +1,7 @@
 /**< Selector de Etiqueta HTML */
 header {
     background-color: #253A46;
-    padding: 15px 10px 5px 5px;
+    padding: 15px 10px 10px 5px;
     background-image: url('../images/novocap.png');
     background-position-x: 10px;
     background-position-y: 10px;
@@ -46,11 +46,10 @@ h1 strong {
 .menu-container {
     margin: 0px;
     text-align: right;
-    vertical-align: text-bottom;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-style: normal;
-    letter-spacing: 1.3px;
+    text-rendering: optimizeLegibility;
     text-transform: capitalize;
     color: whitesmoke;    
 }
@@ -73,15 +72,11 @@ h1 strong {
     background-color: lightcyan;
     display: inline-flex;
     height: 200px;
-    max-width: fit-content;
-}
-
-.project-element {
-    width: 185px;
+    max-width: 500px;
 }
 
 .project-image {
-    height: 180px;
+    height: 185px;
 }
 
 /**<  Selector de Atributo:id */
