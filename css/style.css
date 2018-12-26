@@ -6,30 +6,51 @@ body {
 
 header {
     background-color: #253A46;
-    padding: 15px 10px 10px 5px;
-    background-image: url('../images/novocap.png');
-    background-position-x: 10px;
-    background-position-y: 10px;
-    background-size: 25px;
-    background-repeat: no-repeat;
-    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.figure-menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.figure-menu img {
+    padding: 0px 7.5px;
+    margin: 0px;
+    height: 28px;
+}
+
+.menu {
+    height: inherit;
 }
 
 .menu-container {
     margin: 0px;
-    text-align: right;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-style: normal;
     text-rendering: optimizeLegibility;
     text-transform: capitalize;
-    color: whitesmoke;    
+    color: whitesmoke;
+    display: flex;
+    height: inherit;
 }
 
 .menu-list {
-    display: inline;
-    padding-left: 35px;
-    text-overflow: clip;
+    list-style: none;
+    height: inherit;
+}
+
+.menu-list a {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 7.5px;
 }
 
 .link {
