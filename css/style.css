@@ -64,8 +64,8 @@ header {
     height: 260px;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: contain;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -74,8 +74,8 @@ h1 {
     color: rgb(118, 185, 18);
     line-height: 0.9;
     font-weight: 400;
-    padding: 5px;
-    padding-right: 280px;
+    padding: 0px;
+    /* padding-right: 280px; */
     margin: 0px;
 }
 
@@ -138,6 +138,25 @@ h1 strong {
 }
 
 .footer {
-    margin: 0px 0px 0px 5px;
-    display: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1D252C;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer img {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    height: 28px;
+}
+
+.footer a {
+    color: whitesmoke;
+    text-decoration: none;
 }
