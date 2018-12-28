@@ -115,7 +115,7 @@ h1 strong {
 }
 
 .project {
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
@@ -150,16 +150,73 @@ h1 strong {
 }
 
 .experience {
-    margin: 0px 0px 0px 5px;
+    margin: 0px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.experience-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+}
+
+.experience-article {
+    padding: 0px;
+    margin: 0px;
+    border: solid 1px grey;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: whitesmoke;
 }
 
 .experience-header {
-    margin: 5px 0px 0px 5px;
+    margin: 0px;
+    padding: 0px;
     text-transform: capitalize;
+    width: inherit;
+}
+
+.experience-title {
+    margin: 0px;
+    padding: 25px;
+}
+
+.experience-imageContainer {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+}
+
+.experience-image {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: 80px;
+    object-fit: cover;
+}
+
+.experience-description {
+    padding: 0px;
+    margin: 20px;
+    border: solid 1px grey;
+}
+
+.experience-details {
+    margin: 0px;
+    padding: 10px;
+}
+
+.experience-details a {
+    border: solid 1px blue;
 }
 
 .contact {
-    margin: 0px 0px 0px 5px;
+    margin: 0px;
+    padding: 5px;
 }
 
 .footer {
