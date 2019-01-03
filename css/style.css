@@ -66,6 +66,7 @@ header {
     background-position-x: right;
     display: flex;
     align-items: center;
+    padding-right: 325px;
 }
 
 h1 {
@@ -155,7 +156,18 @@ h1 strong {
     background-color: lightgrey;
 }
 
-.experience-list {
+.experience-header {
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+.experience-title {
+    margin: 0px;
+    padding: 25px;
+}
+
+.experience-event {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -165,24 +177,12 @@ h1 strong {
 
 .experience-article {
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     border: solid 1px grey;
-    width: 600px;
+    width: 480px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: whitesmoke;
-}
-
-.experience-header {
-    margin: 0px;
-    padding: 0px;
-    text-transform: capitalize;
-    width: inherit;
-}
-
-.experience-title {
-    margin: 0px;
-    padding: 25px;
+    background-color: aliceblue;
 }
 
 .experience-imageContainer {
@@ -200,18 +200,31 @@ h1 strong {
 }
 
 .experience-description {
-    padding: 0px;
+    padding: 20px;
     margin: 20px;
-    border: solid 1px grey;
+    margin-top: -40px;
+    /* border: solid 1px grey; */
+    background-color: whitesmoke;
+    position: relative;
+    text-align: center;
 }
 
 .experience-details {
     margin: 0px;
     padding: 10px;
+    font-size: 14px;
+    text-align: left;
 }
 
-.experience-details a {
-    border: solid 1px blue;
+.experience-url {
+    border: solid 1px #026FFF;
+    margin: 0px;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #026FFF;
+    font-size: 18px;
 }
 
 .contact {
