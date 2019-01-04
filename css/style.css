@@ -229,9 +229,76 @@ h1 strong {
     font-size: 18px;
 }
 
+.form-email h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-email input {
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border: 1px solid whitesmoke;
+    padding: 10px 0px;
+    background: transparent;
+    color: whitesmoke;
+    width: 120px;
+}
+
 .contact {
     margin: 0px;
     padding: 5px;
+    background-color: #0063FF;
+    color: whitesmoke;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-link {
+    margin: 0px;
+    padding: 0px 10px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+.social-link.linkedin {
+    background-image: url('../images/linkedin.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.github {
+    background-image: url('../images/github.svg');
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook.svg');
 }
 
 .footer {
