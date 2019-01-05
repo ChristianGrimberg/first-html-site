@@ -10,145 +10,164 @@
 
 <body>
     <header class="header" id="#header">
-        <figure class="figure-menu">
-            <img src="images/novocap.png" alt="Novocap logo">
-        </figure>
-        <nav class="menu">
-            <ol class="menu-container">
-                <li class="menu-list">
-                    <a class="link" href="#header">Home</a>
-                </li>
-                <li class="menu-list">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="menu-list">
-                    <a class="link" href="#experience">Experience</a>
-                </li>
-                <li class="menu-list">
-                    <a class="link" href="#contact">Work together</a>
-                </li>
-            </ol>
-        </nav>
+        <div class="container">
+            <figure class="figure-menu">
+                <img src="images/novocap.png" alt="Novocap logo">
+            </figure>
+            <nav class="menu">
+                <ol class="menu-container">
+                    <li class="menu-list">
+                        <a class="link" href="#header">Home</a>
+                    </li>
+                    <li class="menu-list">
+                        <a class="link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="menu-list">
+                        <a class="link" href="#experience">Experience</a>
+                    </li>
+                    <li class="menu-list">
+                        <a class="link" href="#contact">Work together</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-        <h1>Welcome to my Portfolio! <br> My passion is the
-            <strong>continuous learning</strong> <br> of new technologies</h1>
-        <!-- <img src="images/hero.png" alt="Profile image" /> -->
+        <div class="container">
+            <h1>Welcome to my Portfolio! <br> My passion is the
+                <strong>continuous learning</strong> <br> of new technologies</h1>
+            <img class="hero-image" src="images/hero.png" alt="Profile image" />
+        </div>
     </section>
     <section id="portfolio" class="portfolio">
-        <div class="portfolio-header">
-            <h2>Portfolio (feature proyects)</h2>
-        </div>
-        <div class="project-group">
-            <article class="project">
-                <div class="project-element">
-                    <h3 class="project-title">Internet Of Things</h3>
-                    <h6 class="project-subject">Arduino, ANSI C</h6>
-                    <p class="project-date"><small><strong>Date</strong>: September 2018</small></p>
-                    <p class="project-resource"><small><strong>Resource</strong>: github.com/ChristianGrimberg</small></p>
+        <div class="container">
+            <div class="portfolio-header">
+                <h2>Portfolio (feature proyects)</h2>
+            </div>
+            <div class="project-group">
+                <div class="container">
+                    <article class="project">
+                        <div class="project-element">
+                            <h3 class="project-title">Internet Of Things</h3>
+                            <h6 class="project-subject">Arduino, ANSI C</h6>
+                            <p class="project-date"><small><strong>Date</strong>: September 2018</small></p>
+                            <p class="project-resource"><small><strong>Resource</strong>: github.com/ChristianGrimberg</small></p>
+                        </div>
+                        <div>
+                            <figure class="project-imageContainer">
+                                <img class="project-image" src="images/arduino-uno-r3.png" alt="Arduino Proyects" />
+                            </figure>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project-element">
+                            <h3 class="project-title">Databases interfaces</h3>
+                            <h6 class="project-subject">DEV-SQL, DML-SQL & T-SQL</h6>
+                            <p class="project-date"><small><strong>Date</strong>: 2017-2018</small></p>
+                            <p class="project-resource"><small><strong>Resource</strong>: github.com/novocap</small></p>
+                        </div>
+                        <div>
+                            <figure class="project-imageContainer">
+                                <img class="project-image" src="images/sql-logo.png">
+                            </figure>
+                        </div>
+                    </article>
                 </div>
-                <div>
-                    <figure class="project-imageContainer">
-                        <img class="project-image" src="images/arduino-uno-r3.png" alt="Arduino Proyects" />
-                    </figure>
-                </div>
-            </article>
-            <article class="project">
-                <div class="project-element">
-                    <h3 class="project-title">Databases interfaces</h3>
-                    <h6 class="project-subject">DEV-SQL, DML-SQL & T-SQL</h6>
-                    <p class="project-date"><small><strong>Date</strong>: 2017-2018</small></p>
-                    <p class="project-resource"><small><strong>Resource</strong>: github.com/novocap</small></p>
-                </div>
-                <div>
-                    <figure class="project-imageContainer">
-                        <img class="project-image" src="images/sql-logo.png">
-                    </figure>
-                </div>
-            </article>
+            </div>
         </div>
     </section>
     <section id="experience" class="experience">
-        <div class="experience-header">
-            <h2 class="experience-title">My experience</h2>
-        </div>
-        <div class="experience-event">
-            <article class="experience-article">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="images/img-creemos-vid.jpg" alt="Novocap Workplace" />
-                </figure>
-                <div class="experience-description">
-                    <h3 class="experience-name">Analist System Leader</h3>
-                    <p class="experience-details">
-                        Novocap are one of the leading companies in research, development and manufacturing of
-                        pharmaceutical products for third parties.</p>
-                    <p class="experience-details">
-                        I have been working in the IT department for 10 years, and previously I was working for 3 years
-                        in the Maintenance area.
-                    </p>
-                    <p>
-                        <a class="experience-url" href="https://www.novocap.com" target="_blank">More about Novocap</a>
-                    </p>
+        <div class="container">
+            <div class="experience-header">
+                <h2 class="experience-title">My experience</h2>
+            </div>
+            <div class="experience-event">
+                <div class="container">
+                    <article class="experience-article">
+                        <figure class="experience-imageContainer">
+                            <img class="experience-image" src="images/img-creemos-vid.jpg" alt="Novocap Workplace" />
+                        </figure>
+                        <div class="experience-description">
+                            <h3 class="experience-name">Analist System Leader</h3>
+                            <p class="experience-details">
+                                Novocap are one of the leading companies in research, development and manufacturing of
+                                pharmaceutical products for third parties.</p>
+                            <p class="experience-details">
+                                I have been working in the IT department for 10 years, and previously I was working for
+                                3 years in the Maintenance area.
+                            </p>
+                            <p>
+                                <a class="experience-url" href="https://www.novocap.com" target="_blank">More about
+                                    Novocap</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="experience-article">
+                        <figure class="experience-imageContainer">
+                            <img class="experience-image" src="images/img-creemos-vid.jpg" alt="Novocap Workplace" />
+                        </figure>
+                        <div class="experience-description">
+                            <h3 class="experience-name">Analist System Leader</h3>
+                            <p class="experience-details">
+                                Novocap are one of the leading companies in research, development and manufacturing of
+                                pharmaceutical products for third parties.</p>
+                            <p class="experience-details">
+                                I have been working in the IT department for 10 years, and previously I was working for
+                                3 years in the Maintenance area.
+                            </p>
+                            <p>
+                                <a class="experience-url" href="https://www.novocap.com" target="_blank">More about
+                                    Novocap</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="experience-article">
+                        <figure class="experience-imageContainer">
+                            <img class="experience-image" src="images/img-creemos-vid.jpg" alt="Novocap Workplace" />
+                        </figure>
+                        <div class="experience-description">
+                            <h3 class="experience-name">Analist System Leader</h3>
+                            <p class="experience-details">
+                                Novocap are one of the leading companies in research, development and manufacturing of
+                                pharmaceutical products for third parties.</p>
+                            <p class="experience-details">
+                                I have been working in the IT department for 10 years, and previously I was working for
+                                3 years in the Maintenance area.
+                            </p>
+                            <p>
+                                <a class="experience-url" href="https://www.novocap.com" target="_blank">More about
+                                    Novocap</a>
+                            </p>
+                        </div>
+                    </article>
                 </div>
-            </article>
-            <article class="experience-article">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="images/img-creemos-vid.jpg" alt="Novocap Workplace" />
-                </figure>
-                <div class="experience-description">
-                    <h3 class="experience-name">Analist System Leader</h3>
-                    <p class="experience-details">
-                        Novocap are one of the leading companies in research, development and manufacturing of
-                        pharmaceutical products for third parties.</p>
-                    <p class="experience-details">
-                        I have been working in the IT department for 10 years, and previously I was working for 3 years
-                        in the Maintenance area.
-                    </p>
-                    <p>
-                        <a class="experience-url" href="https://www.novocap.com" target="_blank">More about Novocap</a>
-                    </p>
-                </div>
-            </article>
-            <article class="experience-article">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="images/img-creemos-vid.jpg" alt="Novocap Workplace" />
-                </figure>
-                <div class="experience-description">
-                    <h3 class="experience-name">Analist System Leader</h3>
-                    <p class="experience-details">
-                        Novocap are one of the leading companies in research, development and manufacturing of
-                        pharmaceutical products for third parties.</p>
-                    <p class="experience-details">
-                        I have been working in the IT department for 10 years, and previously I was working for 3 years
-                        in the Maintenance area.
-                    </p>
-                    <p>
-                        <a class="experience-url" href="https://www.novocap.com" target="_blank">More about Novocap</a>
-                    </p>
-                </div>
-            </article>
+            </div>
         </div>
     </section>
     <section id="contact" class="contact">
-        <form action="images/" class="form-email">
-            <h3>Contact us?</h3>
-            <!-- <label for="email">Send me your email: </label> -->
-            <input type="text" value="Write your email" id="email">
-            <button>Send</button>
-        </form>
-        <div class="social">
-            <a href="https://linkedin.com/in/christian-stuart-grimberg-12188632/" target="_blank" class="social-link linkedin"></a>
-            <a href="https://twitter.com/csgrimberg" target="_blank" class="social-link twitter"></a>
-            <a href="https://github.com/ChristianGrimberg" target="_blank" class="social-link github"></a>
-            <a href="https://facebook.com/christian.grimberg" target="_blank" class="social-link facebook"></a>
+        <div class="container">
+            <form action="images/" class="form-email">
+                <h3>Contact us?</h3>
+                <!-- <label for="email">Send me your email: </label> -->
+                <input type="text" value="Write your email" id="email">
+                <button>Send</button>
+            </form>
+            <div class="social">
+                <a href="https://linkedin.com/in/christian-stuart-grimberg-12188632/" target="_blank" class="social-link linkedin"></a>
+                <a href="https://twitter.com/csgrimberg" target="_blank" class="social-link twitter"></a>
+                <a href="https://github.com/ChristianGrimberg" target="_blank" class="social-link github"></a>
+                <a href="https://facebook.com/christian.grimberg" target="_blank" class="social-link facebook"></a>
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <div>
-            <p>Learning Web Development powered by <img src="images/platzi.png" alt="Platzi logo"></p>
-        </div>
-        <div>
-            <p>Designed with <\3 by <a href="https://github.com/ChristianGrimberg">@ChristianGrimberg</p>
+        <div class="container">
+            <div>
+                <p>Learning Web Development powered by <img src="images/platzi.png" alt="Platzi logo"></p>
+            </div>
+            <div>
+                <p>Designed with <\3 by <a href="https://github.com/ChristianGrimberg">@ChristianGrimberg</p>
+            </div>
         </div>
     </footer>
 </body>
