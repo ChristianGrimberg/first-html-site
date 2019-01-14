@@ -6,6 +6,7 @@ body {
 
 .container {
     max-width: 1280px;
+    flex: 1;
     margin: 0px auto;
     display: inherit;
     justify-content: inherit;
@@ -16,12 +17,11 @@ body {
 
 header {
     background-color: #1D252C;
-    padding: 0px;
+    padding: 5px 0px;
     margin: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
     flex-wrap: wrap;
 }
 
@@ -31,21 +31,15 @@ header {
 }
 
 .figure-menu img {
-    padding: 0px 7.5px;
+    padding: 0px 10px;
     margin: 0px;
-    height: 28px;
-}
-
-.menu {
-    height: inherit;
+    height: 25px;
 }
 
 .menu-container {
     margin: 0px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
-    font-style: normal;
-    text-rendering: optimizeLegibility;
     text-transform: capitalize;
     color: whitesmoke;
     display: flex;
@@ -346,6 +340,17 @@ h1 strong {
 }
 
 /* Desktop First Media Query */
+@media screen and (min-width: 1280px) {
+    /* body {
+        border: 10px solid grey;
+    } */
+}
+
+@media screen and (max-width: 1280px) {
+    /* body {
+        border: 10px solid pink;
+    } */
+}
 
 @media screen and (max-width: 1024px) {
     /* body {
@@ -363,6 +368,27 @@ h1 strong {
     /* body {
         border: 10px solid yellow;
     } */
+
+    .header {
+        display: block;
+        height: auto;
+    }
+
+    .figure-menu {
+        text-align: left;
+    }
+
+    .menu-container {
+        display: block;
+    }
+
+    .menu-list {
+        height: 50px;
+    }
+
+    .menu-list a {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 320px) {
