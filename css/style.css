@@ -126,13 +126,11 @@ h1 strong {
 }
 
 .project {
-    border: 1px solid gray;
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
-    background-color: lightcyan;
-    height: 200px;
-    width: 500px;
+    background-color: whitesmoke;
+    max-width: 575px;
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
@@ -141,24 +139,42 @@ h1 strong {
 
 .project-element {
     flex-shrink: 0;
+    width: 40%;
+    font-size: 20px;
 }
 
 .project-title {
-    font-size: 30px;
+    font-size: 1.2em;
+    margin: 0.3em 0px;
+    padding: 0px;
+}
+
+.project-subject {
+    font-size: 1em;
     margin: 10px 0px;
     padding: 0px;
 }
 
-.project-subject,
-.project-date,
-.project-resource {
+.project-date {
+    font-size: 0.8em;
     margin: 10px 0px;
     padding: 0px;
+}
+
+.project-resource {
+    font-size: 0.8em;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.project-figure {
+    width: 60%;
+    text-align: center;
 }
 
 .project-image {
-    width: 210px;
     flex-shrink: 0;
+    max-width: 100%;
 }
 
 .experience {
@@ -380,14 +396,24 @@ h1 strong {
 
     .menu-container {
         display: block;
+        padding-inline-start: 0px;
     }
 
     .menu-list {
-        height: 50px;
+        height: 35px;
     }
 
     .menu-list a {
         justify-content: center;
+    }
+
+    .project {
+        display: block;
+        max-width: 420px;
+    }
+
+    .project-element {
+        font-size: 15px;
     }
 }
 
@@ -395,4 +421,16 @@ h1 strong {
     /* body {
         border: 10px solid red;
     } */
+
+    .portfolio-header h2 {
+        font-size: 13px;
+    }
+
+    .project {
+        max-width: 280px;
+    }
+
+    .project-element {
+        font-size: 15px;
+    }
 }
