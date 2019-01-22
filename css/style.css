@@ -130,7 +130,6 @@ h1 strong {
     margin: 10px;
     padding: 10px;
     background-color: whitesmoke;
-    max-width: 400px;
     min-height: 230px;
     flex-shrink: 0;
     display: flex;
@@ -205,11 +204,11 @@ h1 strong {
 
 .experience-article {
     padding: 0px;
-    margin: 10px;
+    margin: 1%;
     border: solid 1px grey;
     flex-shrink: 0;
-    width: 380px;
-    height: 350px;
+    width: 320px;
+    min-height: 280px;
     border-radius: 10px;
     overflow: hidden;
     background-color: aliceblue;
@@ -224,9 +223,9 @@ h1 strong {
 .experience-image {
     margin: 0px;
     padding: 0px;
-    width: inherit;
     height: 80px;
     object-fit: cover;
+    width: 100%;
 }
 
 .experience-description {
@@ -357,7 +356,7 @@ h1 strong {
 }
 
 /* Desktop First Media Query */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1440px) {
     /* body {
         border: 10px solid pink;
     } */
@@ -367,6 +366,12 @@ h1 strong {
     /* body {
         border: 10px solid blue;
     } */
+
+    project {
+        margin: 1%;
+        padding: 1%;
+        min-width: 500px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -375,7 +380,31 @@ h1 strong {
     } */
 
     .project {
-        max-width: 380px;
+        max-width: 46%;
+        margin: 1%;
+        padding: 1%;
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .experience-article {
+        width: 98%;
+        margin: 1%;
+        flex-shrink: initial;
+    }
+
+    .experience-imageContainer {
+        width: 100%;
+    }
+
+    .experience-image {
+        width: 100%;
+    }
+
+    .experience-description {
+        margin: -1.4em 0.5em 0.5em;
+        padding: 1em;
     }
 }
 
@@ -431,5 +460,9 @@ h1 strong {
 
     .project-element {
         font-size: 15px;
+    }
+
+    .experience-article {
+        min-width: 98%;
     }
 }
