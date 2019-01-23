@@ -168,7 +168,6 @@ h1 strong {
 }
 
 .project-figure {
-    width: 60%;
     text-align: center;
 }
 
@@ -360,6 +359,10 @@ h1 strong {
     /* body {
         border: 10px solid pink;
     } */
+
+    .project-figure {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -372,6 +375,10 @@ h1 strong {
         padding: 1%;
         min-width: 500px;
     }
+
+    .project-figure {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -380,10 +387,23 @@ h1 strong {
     } */
 
     .project {
-        max-width: 46%;
-        margin: 1%;
-        padding: 1%;
-        min-height: 280px;
+        margin: 1em;
+        padding: 2em;
+        display: block;
+        width: 80%;
+    }
+
+    .project-figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-figure {
+        width: 100%;
+    }
+
+    .project-image {
+        width: 70%;
     }
 }
 
@@ -437,11 +457,14 @@ h1 strong {
 
     .project {
         display: block;
-        max-width: 280px;
     }
 
     .project-element {
-        font-size: 15px;
+        font-size: 1em;
+    }
+
+    .project-image {
+        width: 100%;
     }
 }
 
@@ -459,7 +482,7 @@ h1 strong {
     }
 
     .project-element {
-        font-size: 15px;
+        font-size: 1em;
     }
 
     .experience-article {
