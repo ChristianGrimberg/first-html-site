@@ -287,7 +287,7 @@ h1 strong {
 
 .contact {
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     background-color: #0063FF;
     color: whitesmoke;
     height: 150px;
@@ -331,12 +331,12 @@ h1 strong {
 
 .footer {
     margin: 0px;
-    padding: 0px;
+    padding: 0px 10px;
     background-color: #1D252C;
     color: whitesmoke;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: auto;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
@@ -405,6 +405,18 @@ h1 strong {
     .project-image {
         width: 70%;
     }
+
+    .footer {
+        margin: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer p {
+        margin: 0px;
+        padding: 5px;
+        font-size: 0.9em;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -425,6 +437,30 @@ h1 strong {
     .experience-description {
         margin: -1.4em 0.5em 0.5em;
         padding: 1em;
+    }
+
+    .contact {
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .form-email {
+        display: block;
+    }
+
+    .form-email h3 {
+        margin: 10px 0px;
+    }
+
+    .form-email button {
+        display: unset;
+        margin: 10px 5px;
+        justify-content: center;
+    }
+
+    .social {
+        margin: 10px;
     }
 }
 
@@ -487,5 +523,27 @@ h1 strong {
 
     .experience-article {
         min-width: 98%;
+    }
+
+    .social-link {
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
+    }
+
+    .social-link.linkedin {
+        background-size: 40px 40px;
+    }
+
+    .social-link.twitter {
+        background-size: 40px 40px;
+    }
+
+    .social-link.github {
+        background-size: 40px 40px;
+    }
+
+    .social-link.facebook {
+        background-size: 40px 40px;
     }
 }
