@@ -65,7 +65,7 @@ header {
 
 .hero {
     background-color: rgb(70, 70, 70);
-    height: 285px;
+    height: 280px;
     display: flex;
     align-items: center;
     padding-right: 325px;
