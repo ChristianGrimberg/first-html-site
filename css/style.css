@@ -177,6 +177,11 @@ h1 strong {
     max-width: 100%;
 }
 
+.html-video {
+    width: 100%;
+    height: auto;
+}
+
 #experience {
     margin: 0px;
     padding: 10px;
