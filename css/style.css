@@ -65,7 +65,7 @@ header {
 
 .hero {
     background-color: rgb(70, 70, 70);
-    height: 260px;
+    height: 285px;
     display: flex;
     align-items: center;
     padding-right: 325px;
@@ -82,12 +82,13 @@ header {
 
 h1 {
     font-family: 'PT Sans', sans-serif;
-    font-size: 38px;
-    color: rgb(118, 185, 18);
-    line-height: 0.9;
-    font-weight: 400;
-    padding: 0px;
+    font-size: 45px;
+    color: rgb(0, 170, 30);
+    line-height: 1.1;
+    font-weight: 600;
+    padding: 0px 5px;
     margin: 0px;
+    text-shadow: 1px 2px 2px darkslategrey;
 }
 
 h1 strong {
@@ -176,7 +177,7 @@ h1 strong {
     max-width: 100%;
 }
 
-.experience {
+#experience {
     margin: 0px;
     padding: 10px;
     background-color: lightgrey;
@@ -285,7 +286,7 @@ h1 strong {
     width: 120px;
 }
 
-.contact {
+#contact {
     margin: 0px;
     padding: 10px;
     background-color: #0063FF;
@@ -360,6 +361,11 @@ h1 strong {
         border: 10px solid pink;
     } */
 
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
+
     .project-figure {
         width: 50%;
     }
@@ -369,6 +375,27 @@ h1 strong {
     /* body {
         border: 10px solid blue;
     } */
+
+    .hero {
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        padding: 8em 0.5em 12em 0.5em;
+    }
+
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
 
     project {
         margin: 1%;
@@ -439,7 +466,7 @@ h1 strong {
         padding: 1em;
     }
 
-    .contact {
+    #contact {
         height: auto;
         display: block;
         text-align: center;
@@ -469,9 +496,13 @@ h1 strong {
         border: 10px solid yellow;
     } */
 
-    .header {
+    #header {
         display: block;
         height: auto;
+    }
+
+    h1 {
+        font-size: 1.5em;
     }
 
     .figure-menu {
